@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKYASKSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.14'
   s.summary          = 'Add JKYASKSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -48,11 +48,10 @@ TODO: Add JKYASKSDK.
   s.dependency 'CocoaLumberjack', '3.3.0'
   s.dependency 'IQKeyboardManager', '~> 3.3.7'
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
-  
-  s.resource_bundles = {
-    'JKYASKSDK' => ['JKYASKSDK/Classes/**/*.{xib}'],
-    'JKYASKSDKResource' => ['JKYASKSDK/Assets/**/*.{xml,png,cer}'],
-  }
+
+  s.resources = "JKYASKSDK/Assets/JKYASKSDKResource.bundle"
+
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
