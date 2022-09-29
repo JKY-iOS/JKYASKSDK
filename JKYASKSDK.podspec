@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKYASKSDK'
-  s.version          = '0.0.17'
+  s.version          = '0.0.18'
   s.summary          = 'update framework.'
 
 # This description is used to generate tags and improve search results.

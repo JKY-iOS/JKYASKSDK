@@ -39,6 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerWithOption:(JKYASKSDKOption *)option;
 
 /**
+ *  退出IM聊天,不再接受消息,不接收消息推送
+ *
+ */
+- (void)logout;
+
+/**
  *  更新APNS Token
  *
  *  @param token APNS Token
