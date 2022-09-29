@@ -20,10 +20,3 @@ it, simply add the following line to your Podfile:
 pod 'JKYASKSDK'
 ```
 
-## Author
-
-253387663@qq.com, 253387663@qq.com
-
-## License
-
-JKYASKSDK is available under the MIT license. See the LICENSE file for more info.
