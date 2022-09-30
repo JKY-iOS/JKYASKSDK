@@ -20,14 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *appid;
 
 /**
- *  Apns *开发*环境推送证书名
+ *  Apns 推送证书名
  */
-@property (nullable,nonatomic,copy)  NSString    *devApnsCername;
-
-/**
- *  Apns *生产*环境推送证书名
- */
-@property (nullable,nonatomic,copy)  NSString    *productionApnsCername;
+@property (nullable,nonatomic,copy)  NSString    *apnsCername;
 
 /**
  *  账号 (舒糖的uniqueId)
