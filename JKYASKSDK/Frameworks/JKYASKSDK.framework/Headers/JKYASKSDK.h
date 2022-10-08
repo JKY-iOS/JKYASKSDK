@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char JKYASKSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <JKYASKSDK/PublicHeader.h>
 
 #import <JKYASKSDK/JKYASKSDKManager.h>
-#import <JKYASKSDK/JKYASKSDKOption.h>
+#import <JKYASKSDK/JKYASKLoginData.h>

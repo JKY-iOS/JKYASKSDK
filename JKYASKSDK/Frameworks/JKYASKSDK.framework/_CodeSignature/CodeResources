@@ -4,17 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/JKYASKLoginData.h</key>
+		<data>
+		RTyNnc4jeIL6xyeyVYidyPhJlC8=
+		</data>
 		<key>Headers/JKYASKSDK.h</key>
 		<data>
-		k7IsOXjjLi8AsNKVQLXd0cckvLE=
+		W+/4qreazBdR+pqyxzxUExG19jA=
 		</data>
 		<key>Headers/JKYASKSDKManager.h</key>
 		<data>
-		IktPPlqDRJ/ViKLqh/y40j8OsnA=
-		</data>
-		<key>Headers/JKYASKSDKOption.h</key>
-		<data>
-		2BcGcGaSjm6h+tUF564tRkzOsL0=
+		fn7w7jLoz8bQKOKK0wlvDrreuM8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,37 +43,37 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/JKYASKLoginData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RTyNnc4jeIL6xyeyVYidyPhJlC8=
+			</data>
+			<key>hash2</key>
+			<data>
+			IO/+KCgBfPSNjdltyYKeocXDUGdJFAsuCNDaXZc/dOQ=
+			</data>
+		</dict>
 		<key>Headers/JKYASKSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k7IsOXjjLi8AsNKVQLXd0cckvLE=
+			W+/4qreazBdR+pqyxzxUExG19jA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zOW9osb6It5qHpyuII2O78nsIgVCHgnHGyg8CRv3qLw=
+			n0aMqVc6qrzvpwzceFXakVhepUzN0CAX8jZ1StpdSW8=
 			</data>
 		</dict>
 		<key>Headers/JKYASKSDKManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IktPPlqDRJ/ViKLqh/y40j8OsnA=
+			fn7w7jLoz8bQKOKK0wlvDrreuM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			acrkylH3NjlO3tg59+X95DydYhhv6DE+IN3tixNmPgc=
-			</data>
-		</dict>
-		<key>Headers/JKYASKSDKOption.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2BcGcGaSjm6h+tUF564tRkzOsL0=
-			</data>
-			<key>hash2</key>
-			<data>
-			Iwx2fN/mxe5aJD880Bx7oTzVK+XuxJz1NNR/G6+IbX0=
+			a9kFDR1dD4ojLNNJcJC8/MVR/KUMdAQRAfOH4MtWKDo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

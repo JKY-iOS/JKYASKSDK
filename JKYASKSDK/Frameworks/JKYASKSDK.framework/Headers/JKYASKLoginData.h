@@ -12,17 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 注册选项
  */
-@interface JKYASKSDKOption : NSObject <NSCopying>
-
-/**
- *  分配的AppId
- */
-@property (nonatomic,copy) NSString *appid;
-
-/**
- *  Apns 推送证书名
- */
-@property (nullable,nonatomic,copy)  NSString    *apnsCername;
+@interface JKYASKLoginData : NSObject <NSCopying>
 
 /**
  *  账号 (舒糖的uniqueId)

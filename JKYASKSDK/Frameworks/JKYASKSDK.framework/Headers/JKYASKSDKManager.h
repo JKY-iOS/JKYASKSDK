@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class JKYASKSDKOption;
+@class JKYASKLoginData;
 
 /**
  *  JKYASKSDKManager
@@ -32,11 +32,20 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)sdkVersion;
 
 /**
- *  初始化SDK,首次登录,或者换号登录(刷新用户用户信息,并回到首页)
+ *  初始化SDK
  *
- *  @param option  注册选项
+ *  @param appid 分配的的appid
+ *  @param cerName  推送证书名
  */
-- (void)registerWithOption:(JKYASKSDKOption *)option;
+- (void)registerWithAppID:(NSString *)appid
+                  cerName:(nullable NSString *)cerName;
+
+/**
+ *  登录,或者换号登录(刷新用户信息,并回到首页)
+ *
+ *  @param loginData  登录的用户信息
+ */
+- (void)login:(JKYASKLoginData *)loginData;
 
 /**
  *  退出IM聊天,不再接受消息,不接收消息推送
