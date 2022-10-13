@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKYASKSDK'
-  s.version          = '0.0.23'
-  s.summary          = '0.0.23 version'
+  s.version          = '0.0.21'
+  s.summary          = '0.0.21 version'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 0.0.23 version
+TODO: 0.0.21 version
                        DESC
 
   s.homepage         = 'https://github.com/JKY-iOS/JKYASKSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  #s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Scan' => '253387663@qq.com' }
   s.source           = { :git => 'https://github.com/JKY-iOS/JKYASKSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
