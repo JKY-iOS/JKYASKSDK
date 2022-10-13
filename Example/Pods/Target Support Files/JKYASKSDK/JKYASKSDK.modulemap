@@ -1,6 +1,0 @@
-framework module JKYASKSDK {
-  umbrella header "JKYASKSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
