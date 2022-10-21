@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKYASKSDK'
-  s.version          = '0.0.24'
-  s.summary          = '0.0.24 version'
+  s.version          = '0.1.0'
+  s.summary          = '0.1.0 version'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 0.0.24 version
+TODO: 0.1.0 version
                        DESC
 
   s.homepage         = 'https://github.com/JKY-iOS/JKYASKSDK'
@@ -28,25 +28,24 @@ TODO: 0.0.24 version
   s.source           = { :git => 'https://github.com/JKY-iOS/JKYASKSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   #s.source_files = 'JKYASKSDK/Classes/**/*'
   s.ios.vendored_frameworks = 'JKYASKSDK/Frameworks/JKYASKSDK.framework'
   s.dependency 'NIMSDK', '8.9.101'
-  s.dependency 'tinyxml', '2.1.0'
-  s.dependency 'YYText', '1.0.7'
-  s.dependency 'SDWebImage', '5.9.0'
-  s.dependency 'JXCategoryView', '1.6.1'
-  s.dependency 'MJExtension', '3.2.2'
-  s.dependency 'AFNetworking', '3.2.1'
-  s.dependency 'MJRefresh', '3.5.0'
-  s.dependency 'SVProgressHUD', '2.2.5'
-  s.dependency 'Masonry', '1.1.0'
-  s.dependency 'Toast', '2.4'
-  s.dependency 'HXPhotoPicker', '3.3.1'
-  s.dependency 'SSZipArchive', '2.1.5'
-  s.dependency 'CocoaLumberjack', '3.3.0'
-  s.dependency 'IQKeyboardManager', '~> 3.3.7'
+  s.dependency 'tinyxml',
+  s.dependency 'YYText',
+  s.dependency 'SDWebImage',
+  s.dependency 'JXCategoryView',
+  s.dependency 'MJExtension',
+  s.dependency 'AFNetworking',
+  s.dependency 'MJRefresh',
+  s.dependency 'SVProgressHUD',
+  s.dependency 'Masonry',
+  s.dependency 'Toast',
+  s.dependency 'HXPhotoPicker',
+  s.dependency 'SSZipArchive',
+  s.dependency 'CocoaLumberjack',
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
 
   s.resources = "JKYASKSDK/Assets/JKYASKSDKResource.bundle"
