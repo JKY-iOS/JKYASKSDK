@@ -33,19 +33,19 @@ TODO: 0.1.0 version
   #s.source_files = 'JKYASKSDK/Classes/**/*'
   s.ios.vendored_frameworks = 'JKYASKSDK/Frameworks/JKYASKSDK.framework'
   s.dependency 'NIMSDK', '8.9.101'
-  s.dependency 'tinyxml',
-  s.dependency 'YYText',
-  s.dependency 'SDWebImage',
-  s.dependency 'JXCategoryView',
-  s.dependency 'MJExtension',
-  s.dependency 'AFNetworking',
-  s.dependency 'MJRefresh',
-  s.dependency 'SVProgressHUD',
-  s.dependency 'Masonry',
-  s.dependency 'Toast',
-  s.dependency 'HXPhotoPicker',
-  s.dependency 'SSZipArchive',
-  s.dependency 'CocoaLumberjack',
+  s.dependency 'tinyxml'
+  s.dependency 'YYText'
+  s.dependency 'SDWebImage'
+  s.dependency 'JXCategoryView'
+  s.dependency 'MJExtension'
+  s.dependency 'AFNetworking', '<= 3.2.1'
+  s.dependency 'MJRefresh'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'Masonry'
+  s.dependency 'Toast'
+  s.dependency 'HXPhotoPicker'
+  s.dependency 'SSZipArchive'
+  s.dependency 'CocoaLumberjack'
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
 
   s.resources = "JKYASKSDK/Assets/JKYASKSDKResource.bundle"
