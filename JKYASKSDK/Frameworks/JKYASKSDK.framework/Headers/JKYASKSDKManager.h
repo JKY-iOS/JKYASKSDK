@@ -70,9 +70,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  服务板块ViewController实例
  *
+ *  @param isHide 是否隐藏导航栏
+ *
  *  @return 服务板块ViewController实例
  */
-- (UIViewController *)getJKYServiceHomeViewController;
+- (UIViewController *)getJKYServiceHomeViewControllerWithHideNavigationBar:(BOOL)isHide;
 
 /**
  *  获得从第三方支付回调到本app的回调
