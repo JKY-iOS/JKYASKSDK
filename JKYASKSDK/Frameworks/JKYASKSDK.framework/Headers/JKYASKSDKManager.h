@@ -61,11 +61,18 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)updateApnsToken:(NSData *)token;
 
 /**
+ *  服务板块NavigationController实例
+ *
+ *  @return 服务板块NavigationController实例
+ */
+- (UINavigationController *)getJKYAskModuleNavigationController;
+
+/**
  *  服务板块ViewController实例
  *
  *  @return 服务板块ViewController实例
  */
-- (UINavigationController *)getJKYAskModuleNavigationController;
+- (UIViewController *)getJKYServiceHomeViewController;
 
 /**
  *  获得从第三方支付回调到本app的回调
